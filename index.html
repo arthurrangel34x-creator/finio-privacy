@@ -5,57 +5,61 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Política de Privacidade — Finio</title>
 <style>
-  body { font-family: -apple-system, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px 16px; color: #1a1a1a; line-height: 1.7; }
-  h1 { color: #00C37A; }
-  h2 { margin-top: 32px; font-size: 1.1rem; }
-  p { color: #444; }
-  footer { margin-top: 48px; color: #999; font-size: 0.85rem; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0f0f; color: #e0e0e0; min-height: 100vh; padding: 40px 16px; }
+  .container { max-width: 720px; margin: 0 auto; }
+  header { text-align: center; padding: 48px 0 40px; border-bottom: 1px solid #222; margin-bottom: 40px; }
+  .logo { font-size: 2rem; font-weight: 800; color: #00C37A; letter-spacing: -1px; }
+  h1 { font-size: 1.6rem; font-weight: 700; color: #fff; margin-top: 12px; }
+  .date { color: #666; font-size: 0.85rem; margin-top: 8px; }
+  .intro { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; padding: 20px 24px; margin-bottom: 32px; color: #aaa; line-height: 1.7; font-size: 0.95rem; }
+  .section { border: 1px solid #222; border-radius: 12px; padding: 24px; margin-bottom: 16px; background: #141414; transition: border-color 0.2s; }
+  .section:hover { border-color: #00C37A44; }
+  .section-number { display: inline-block; background: #00C37A22; color: #00C37A; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 20px; margin-bottom: 10px; letter-spacing: 0.5px; }
+  .section h2 { font-size: 1rem; font-weight: 700; color: #fff; margin-bottom: 10px; }
+  .section p { color: #999; font-size: 0.9rem; line-height: 1.7; }
+  .section a { color: #00C37A; text-decoration: none; }
+  .section a:hover { text-decoration: underline; }
+  footer { text-align: center; padding: 40px 0 24px; color: #444; font-size: 0.8rem; border-top: 1px solid #1a1a1a; margin-top: 40px; }
 </style>
 </head>
 <body>
-<h1>Política de Privacidade — Finio</h1>
-<p><em>Última atualização: junho de 2026</em></p>
-<p>O Finio valoriza sua privacidade. Este documento explica como coletamos, usamos e protegemos seus dados pessoais.</p>
+<div class="container">
+  <header>
+    <div class="logo">Finio</div>
+    <h1>Política de Privacidade</h1>
+    <div class="date">Última atualização: junho de 2026</div>
+  </header>
 
-<h2>1. Quais dados coletamos</h2>
-<p>Coletamos nome, e-mail e dados de lançamentos financeiros que você registra no aplicativo. Dados de pagamento (cartão de crédito) são processados diretamente pelo Stripe e nunca armazenados em nossos servidores.</p>
+  <div class="intro">O Finio valoriza sua privacidade. Este documento explica como coletamos, usamos e protegemos seus dados pessoais de acordo com a Lei Geral de Proteção de Dados (LGPD).</div>
 
-<h2>2. Como usamos seus dados</h2>
-<p>Seus dados são usados exclusivamente para fornecer o serviço do Finio: autenticação, sincronização de lançamentos e personalização de insights. Não vendemos ou compartilhamos seus dados com terceiros para fins publicitários.</p>
+  <div class="section"><span class="section-number">01</span><h2>Quais dados coletamos</h2><p>Coletamos nome, e-mail e dados de lançamentos financeiros que você registra no aplicativo. Dados de pagamento (cartão de crédito) são processados diretamente pelo Stripe e nunca armazenados em nossos servidores.</p></div>
 
-<h2>3. Armazenamento e segurança</h2>
-<p>Seus dados são armazenados de forma segura no Supabase, com criptografia em trânsito (TLS) e em repouso. Utilizamos autenticação segura com tokens JWT.</p>
+  <div class="section"><span class="section-number">02</span><h2>Como usamos seus dados</h2><p>Seus dados são usados exclusivamente para fornecer o serviço do Finio: autenticação, sincronização de lançamentos e personalização de insights. Não vendemos ou compartilhamos seus dados com terceiros para fins publicitários.</p></div>
 
-<h2>4. Compartilhamento com terceiros</h2>
-<p>Utilizamos os seguintes serviços de terceiros: Supabase (banco de dados e autenticação), Stripe (processamento de pagamento) e RevenueCat (gestão de assinaturas). Cada um possui sua própria política de privacidade.</p>
+  <div class="section"><span class="section-number">03</span><h2>Armazenamento e segurança</h2><p>Seus dados são armazenados de forma segura no Supabase, com criptografia em trânsito (TLS) e em repouso. Utilizamos autenticação segura com tokens JWT.</p></div>
 
-<h2>5. Seus direitos</h2>
-<p>Você pode solicitar a exclusão de todos os seus dados a qualquer momento entrando em contato conosco. Após a exclusão, todos os seus lançamentos, metas e dados pessoais serão permanentemente removidos.</p>
+  <div class="section"><span class="section-number">04</span><h2>Compartilhamento com terceiros</h2><p>Utilizamos os seguintes serviços: Supabase (banco de dados e autenticação), Stripe (processamento de pagamento) e RevenueCat (gestão de assinaturas). Cada um possui sua própria política de privacidade.</p></div>
 
-<h2>6. Notificações</h2>
-<p>Enviamos notificações push apenas quando você ativa essa opção nas configurações do aplicativo. Você pode desativar as notificações a qualquer momento.</p>
+  <div class="section"><span class="section-number">05</span><h2>Seus direitos</h2><p>Você pode solicitar a exclusão de todos os seus dados a qualquer momento entrando em contato conosco. Após a exclusão, todos os seus lançamentos, metas e dados pessoais serão permanentemente removidos.</p></div>
 
-<h2>7. Período de retenção de dados</h2>
-<p>Seus dados são mantidos enquanto sua conta estiver ativa. Após solicitar exclusão, os dados são removidos em até 30 dias.</p>
+  <div class="section"><span class="section-number">06</span><h2>Notificações</h2><p>Enviamos notificações push apenas quando você ativa essa opção nas configurações do aplicativo. Você pode desativar as notificações a qualquer momento.</p></div>
 
-<h2>8. Crianças e adolescentes</h2>
-<p>O Finio não é destinado a menores de 18 anos. Não coletamos intencionalmente dados de menores de idade.</p>
+  <div class="section"><span class="section-number">07</span><h2>Período de retenção</h2><p>Seus dados são mantidos enquanto sua conta estiver ativa. Após solicitar exclusão, os dados são removidos em até 30 dias.</p></div>
 
-<h2>9. Base legal (LGPD)</h2>
-<p>O tratamento dos seus dados é baseado no seu consentimento e na execução do contrato de prestação de serviço, conforme a Lei Geral de Proteção de Dados (Lei nº 13.709/2018).</p>
+  <div class="section"><span class="section-number">08</span><h2>Crianças e adolescentes</h2><p>O Finio não é destinado a menores de 18 anos. Não coletamos intencionalmente dados de menores de idade.</p></div>
 
-<h2>10. Transferência internacional de dados</h2>
-<p>Seus dados podem ser processados em servidores fora do Brasil (Supabase, Stripe, RevenueCat). Garantimos que esses serviços seguem padrões adequados de proteção.</p>
+  <div class="section"><span class="section-number">09</span><h2>Base legal (LGPD)</h2><p>O tratamento dos seus dados é baseado no seu consentimento e na execução do contrato de prestação de serviço, conforme a Lei nº 13.709/2018.</p></div>
 
-<h2>11. Alterações nesta política</h2>
-<p>Notificaremos você por e-mail ou notificação no app caso esta política seja alterada significativamente.</p>
+  <div class="section"><span class="section-number">10</span><h2>Transferência internacional</h2><p>Seus dados podem ser processados em servidores fora do Brasil (Supabase, Stripe, RevenueCat). Garantimos que esses serviços seguem padrões adequados de proteção.</p></div>
 
-<h2>12. Cancelamento e reembolso</h2>
-<p>Assinaturas podem ser canceladas a qualquer momento pela Play Store. Após o cancelamento, o acesso Premium é mantido até o fim do período pago.</p>
+  <div class="section"><span class="section-number">11</span><h2>Alterações nesta política</h2><p>Notificaremos você por e-mail ou notificação no app caso esta política seja alterada significativamente.</p></div>
 
-<h2>13. Contato</h2>
-<p>Para dúvidas sobre privacidade ou para solicitar exclusão de dados: <a href="mailto:suportefinio@gmail.com">suportefinio@gmail.com</a></p>
+  <div class="section"><span class="section-number">12</span><h2>Cancelamento e reembolso</h2><p>Assinaturas podem ser canceladas a qualquer momento pela Play Store. Após o cancelamento, o acesso Premium é mantido até o fim do período pago.</p></div>
 
-<footer>© 2026 Finio. Todos os direitos reservados.</footer>
+  <div class="section"><span class="section-number">13</span><h2>Contato</h2><p>Para dúvidas ou solicitação de exclusão de dados: <a href="mailto:suportefinio@gmail.com">suportefinio@gmail.com</a></p></div>
+
+  <footer>© 2026 Finio. Todos os direitos reservados.</footer>
+</div>
 </body>
 </html>
